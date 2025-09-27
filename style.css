@@ -132,3 +132,22 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 .footer-text strong {
   color: var(--primary-ink);
 }
+/* Rodapé: centralizar logos lado a lado */
+.foot .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* espaço entre as logos */
+  margin-bottom: 12px;
+}
+
+/* Ajustes individuais de tamanho */
+.logo-cchla {
+  height: 120px; /* ajuste aqui o tamanho da logo CCHLA */
+  width: auto;
+}
+
+.logo-ppgpi {
+  height: 100px; /* ajuste aqui o tamanho da logo PPGPI */
+  width: auto;
+}

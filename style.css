@@ -143,11 +143,11 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* Ajustes individuais de tamanho */
 .logo-cchla {
-  height: 120px; /* ajuste aqui o tamanho da logo CCHLA */
+  height: 150px; /* ajuste aqui o tamanho da logo CCHLA */
   width: auto;
 }
 
 .logo-ppgpi {
-  height: 100px; /* ajuste aqui o tamanho da logo PPGPI */
+  height: 90px; /* ajuste aqui o tamanho da logo PPGPI */
   width: auto;
 }

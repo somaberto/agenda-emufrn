@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- ===== CABEÇALHO ===== -->
+<nav class="nav">
+  <div class="brand">
+    <!-- Logo da Escola de Música (maior) -->
+    <a href="https://musica.ufrn.br" target="_blank" rel="noopener">
+      <img class="logo-emufrn"
+           src="https://musica.ufrn.br/wp-content/uploads/2021/05/cropped-logo-300.png" 
+           alt="Escola de Música da UFRN">
+    </a>
+
+    <!-- Logo da UFRN (menor) -->
+    <a href="https://www.ufrn.br" target="_blank" rel="noopener">
+      <img class="logo-ufrn"
+           src="https://logodownload.org/wp-content/uploads/2018/04/ufrn-logo.png" 
+           alt="UFRN">
+    </a>
+  </div>
+</nav>
+
+<!-- ===== BOAS-VINDAS (TOPO) ===== -->
+<div class="welcome">
+  <h2>Agenda Cultural da Escola de Música da UFRN</h2>
+  <p>
+    A música tem hora marcada e você não pode perder! Aqui você encontra, em um só lugar,
+    os sons, ritmos e encontros que movimentam a nossa Escola. Concertos, recitais,
+    ensaios abertos, masterclasses e muitas outras experiências artísticas em um só espaço digital.
+  </p>
+  <p><strong>Abra seus ouvidos e venha viver a música com a gente!</strong></p>
+</div>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <h1>Programação & Ingressos</h1>
+  <p>Eventos por ordem de realização — concertos, recitais, apresentações de grupos.</p>
+  <div class="controls">
+    <select id="filtroTipo" aria-label="Filtrar por tipo">
+      <option value="">Todos os tipos</option>
+      <option>Concerto</option><option>Recital</option>
+      <option>Apresentação de Grupo</option>
+    </select>
+    <select id="filtroLocal" aria-label="Filtrar por local">
+      <option value="">Todos os locais</option>
+      <option>Auditório Onofre Lopes</option>
+      <option>Auditório Oriano de Almeida</option>
+    </select>
+    <input id="busca" type="search" placeholder="Buscar título/artista/local" aria-label="Buscar">
+  </div>
+</header>
+
+<!-- ===== LISTA DE EVENTOS ===== -->
+<main class="section">
+  <div id="lista" class="grid" role="list"></div>
+  <div id="vazio" class="empty" style="display:none">Nenhum evento encontrado.</div>
+</main>
+
+<!-- ===== RODAPÉ ===== -->
+<footer class="foot">
+  <div class="logos">
+    <!-- Logo do CCHLA (maior) -->
+    <a href="https://cchla.ufrn.br" target="_blank" rel="noopener">
+      <img class="logo-cchla"
+           src="https://images.seeklogo.com/logo-png/19/1/cchla-ufrn-logo-png_seeklogo-197089.png" 
+           alt="CCHLA UFRN">
+    </a>
+  </div>
+
+  <!-- Texto institucional no final -->
+  <div class="footer-text">
+    <p>
+      A cada evento, um novo capítulo da nossa história musical.<br>
+      Acompanhe a programação e fortaleça a cultura que pulsa na Escola de Música da UFRN.<br>
+      Sua presença faz toda a diferença.<br>
+      <strong>Agenda Cultural UFRN:</strong> tradição, talento e música ao seu alcance.
+    </p>
+  </div>
+
+  © <span id="year"></span> Grupo Som Aberto - PPGPI
+</footer>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>

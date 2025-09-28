@@ -110,7 +110,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 }
 .welcome h2 {
   margin: 0 0 12px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: var(--primary-ink);  /* azul escuro institucional */
 }

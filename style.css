@@ -151,3 +151,28 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
   height: 80px; /* ajuste aqui o tamanho da logo PPGPI */
   width: auto;
 }
+/* Caixa de imagem com tamanho uniforme (ajuste a altura conforme quiser) */
+.card-img {
+  width: 100%;
+  height: 220px;           /* altura única padrão para todos os cards — ajuste aqui */
+  background-color: #eef2f7; /* cor de “fundo” quando houver espaço extra */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* A própria imagem:
+   - object-fit: contain -> mostra a imagem inteira, sem cortar
+   - object-position: center -> centraliza
+   - max-width/max-height protegem contra imagens muito grandes */
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}

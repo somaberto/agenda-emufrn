@@ -197,7 +197,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* regra base: imagens respeitam a caixa, sem distorcer */
 .brand-5logos .logo {
-  max-height: 115%;
+  max-height: 115px;
   width: auto;
   display: block;
 }
@@ -210,7 +210,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 }
 
 .logo-2 { /* UFRN - um pouco menor */
-  max-height: 84px;
+  max-height: 40px;
 }
 
 .logo-3 { /* CCHLA */

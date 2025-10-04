@@ -206,23 +206,23 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 /* Aumente/diminua os valores abaixo conforme desejar */
 
 .logo-1 { /* escola de música - maior, por exemplo */
-  max-height: 100%;   /* ocupa toda a caixa */
+  max-height: 84px;   /* ocupa toda a caixa */
 }
 
 .logo-2 { /* UFRN - um pouco menor */
-  max-height: 45%;
+  max-height: 84px;
 }
 
 .logo-3 { /* CCHLA */
-  max-height: 115;
+  max-height: 84px;
 }
 
 .logo-4 { /* PPGPI */
-  max-height: 86%;
+  max-height: 84px;
 }
 
 .logo-5 { /* parceiro */
-  max-height: 95%;
+  max-height: 84px;
 }
 
 /* --- Responsividade --- */

@@ -210,11 +210,11 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 }
 
 .logo-2 { /* UFRN - um pouco menor */
-  max-height: 82%;
+  max-height: 65%;
 }
 
 .logo-3 { /* CCHLA */
-  max-height: 92%;
+  max-height: 115;
 }
 
 .logo-4 { /* PPGPI */
@@ -222,7 +222,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 }
 
 .logo-5 { /* parceiro */
-  max-height: 86%;
+  max-height: 95%;
 }
 
 /* --- Responsividade --- */

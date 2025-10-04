@@ -197,7 +197,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* regra base: imagens respeitam a caixa, sem distorcer */
 .brand-5logos .logo {
-  max-height: 100%;
+  max-height: 115%;
   width: auto;
   display: block;
 }
